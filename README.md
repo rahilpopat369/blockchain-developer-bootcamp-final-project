@@ -28,10 +28,16 @@ Please have Metamask installed as an extension and make sure it is on the Rinkeb
 INSTRUCTIONS on installing dependencies
 -----------------------------------------------------------------------------------
 npm install 
+npm install --save-dev mocha 
 
-INSTRUCTIONS on running smart contract unit TESTS and which port local testnet should be running on
+Instructions on running smart contract unit TESTS and which port local testnet should be running on
 -----------------------------------------------
-The Mocha test runner is used to run the smart contract tests using the command "npm run test"
+Clone the github project link: https://rahilpopat369.github.io/blockchain-developer-bootcamp-final-project/
+Run the following commands and install the following dependencies for the Mocha test runner
+1) npm install --save-dev mocha
+2) npm test 
+3) Results: 5 passing units tests should be seen (Picture of results attached)
+
 
 INSTRUCTIONS on viewing the screencast of a project walkthrough, including trsnactions and seeing updated status 
 -----------------------------------------------
