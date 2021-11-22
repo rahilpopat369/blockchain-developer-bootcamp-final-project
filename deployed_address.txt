@@ -1,0 +1,8 @@
+Author: Rahil Popat 
+Project Name: Blockchain Lottery Smart Contract 
+----------------------------------------------------------------------------------------------------
+DEPLOYED SMART CONTRACT ADDRESS ON RINKEBY TESTNET 
+-----------------------------------------------------------------------------------------------------
+Testnet Name: Rinkeby Test Network 
+Testnet Lottery Smart Contract address: 0x29F26196d00bfB2fd26A812ff70b398b4bE3e005
+From: Contract Creator address: 0xbe6a83eedea60417fd9056d4e2a86823a63cbfd8 (Metamask Primary account)
