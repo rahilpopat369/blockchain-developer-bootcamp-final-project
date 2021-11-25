@@ -61,3 +61,4 @@ Steps to run project locally:
 9) npm install -g node-modules
 10) Add a .env file in the root folder and paste the follwing into the file : SKIP_PREFLIGHT_CHECK=true 
 11) Run the command npm start to start up the localhost:3000 server
+https://www.loom.com/share/a214fba81b9c472490ab5d8534146685
