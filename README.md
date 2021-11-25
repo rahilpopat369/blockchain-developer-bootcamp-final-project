@@ -50,7 +50,8 @@ Screencast of a project walkthrough, including trsnactions and seeing updated st
 https://www.loom.com/share/9f4057415da84a949f281c26fcb98021
 
 Steps to run project locally:
-1) Create a new folder locally and clone the repo https://github.com/rahilpopat369/blockchain-developer-bootcamp-final-project2) Change directory, run the command cd blockchain-developer-bootcamp-final-project
+1) Create a new folder locally and clone the repo https://github.com/rahilpopat369/blockchain-developer-bootcamp-final-project
+2) Change directory, run the command cd blockchain-developer-bootcamp-final-project
 3) Install dependencies: npm install --save-dev mocha and npm install 
 4) Run npm test to run the unit tests for the smart contract
 5) Run the react front-end go inside the folder lottery-react 
