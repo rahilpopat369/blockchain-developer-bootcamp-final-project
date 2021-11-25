@@ -21,11 +21,11 @@ Please have Metamask installed as an extension and make sure it is on the Rinkeb
 
 Installing dependencies
 -----------------------------------------------------------------------------------
-npm install 
-npm install --save-dev mocha 
-npm install -g create-react-app 
-npm install --save react react-dom
-npm install -g node-modules
+1) npm install 
+2) npm install --save-dev mocha 
+3) npm install -g create-react-app 
+4) npm install --save react react-dom
+5) npm install -g node-modules
 
 Running 5 smart contract unit tests
 -----------------------------------------------
