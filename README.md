@@ -1,5 +1,6 @@
 Project Name: BlockChain Lottery Dapp 
-Ethereum Address to Receive NFT: 0xBE6a83EEDEA60417FD9056D4E2a86823A63CBFd8
+
+
 Project Directory 
 --------------------------------------------------------------------------------------------------------
 1) Folder Name: contracts
@@ -64,3 +65,5 @@ Steps to run project locally:
 11) Run the command npm start to start up the localhost:3000 server
 Please see a video demonstration of the steps 1) to 11) using the link below
 https://www.loom.com/share/a214fba81b9c472490ab5d8534146685
+
+Ethereum Address to Receive NFT: 0xBE6a83EEDEA60417FD9056D4E2a86823A63CBFd8
