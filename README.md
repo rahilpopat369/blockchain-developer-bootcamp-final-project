@@ -27,6 +27,7 @@ List of all dependencies
 4) npm install --save react react-dom
 5) npm install -g node-modules
 6) npm install @truffle/hdwallet-provider
+
 Running 5 smart contract unit tests
 -----------------------------------------------
 Clone the github project link: https://rahilpopat369.github.io/blockchain-developer-bootcamp-final-project/
@@ -61,4 +62,5 @@ Steps to run project locally:
 9) npm install -g node-modules
 10) Add a .env file in the root folder and paste the follwing into the file : SKIP_PREFLIGHT_CHECK=true 
 11) Run the command npm start to start up the localhost:3000 server
+Please see a video demonstration of the steps 1) to 11) using the link below
 https://www.loom.com/share/a214fba81b9c472490ab5d8534146685
