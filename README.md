@@ -47,4 +47,4 @@ In order to link the deployed smart contract to the react front end, follow the 
 
 Screencast of a project walkthrough, including trsnactions and seeing updated status 
 -----------------------------------------------
-Share the link of the recording to view the project walkthrough screencast 
+https://www.loom.com/share/9f4057415da84a949f281c26fcb98021
