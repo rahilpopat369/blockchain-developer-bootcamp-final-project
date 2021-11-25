@@ -2,14 +2,14 @@ Project Name: BlockChain Lottery Dapp
 ---------------------------------------------------------------------------------------------------------
 Project Directory 
 --------------------------------------------------------------------------------------------------------
-Folder Name: contracts
+1) Folder Name: contracts
      Description: Contains the smart contracts solidity files called Lottery.sol
-Folder Name: test
+2) Folder Name: test
      Description: Contains 5 units test files that have sucessfully been passed
      Please Note: See picture of passed tests called testresults in root project folder
- Folder Name: lottery-react
+3) Folder Name: lottery-react
     Description: Contains the react scripts and files for the front-end dapp 
-Remaining JavaScript File Descriptions
+4) Remaining JavaScript File Descriptions
     compile.js: JS script used to compile the smart contract
     deploy.js: JS script used to deploy the smart contract to the rinkeby test network
    
