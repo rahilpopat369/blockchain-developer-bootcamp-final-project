@@ -1,5 +1,5 @@
 Project Name: BlockChain Lottery Dapp 
----------------------------------------------------------------------------------------------------------
+Ethereum Address to Receive NFT: 0xBE6a83EEDEA60417FD9056D4E2a86823A63CBFd8
 Project Directory 
 --------------------------------------------------------------------------------------------------------
 1) Folder Name: contracts
