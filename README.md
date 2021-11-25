@@ -1,6 +1,6 @@
-Project Name: BlockChain Lottery Dapp and Smart Contract 
+Project Name: BlockChain Lottery Dapp 
 ---------------------------------------------------------------------------------------------------------
-PROJECT DIRECTORY STRUCTURE
+Project Directory 
 --------------------------------------------------------------------------------------------------------
 Folder Name: contracts
      Description: Contains the smart contracts solidity files called Lottery.sol
@@ -14,7 +14,7 @@ Remaining JavaScript File Descriptions
     deploy.js: JS script used to deploy the smart contract to the rinkeby test network
    
 ----------------------------------------------------------------------------------
-INSTRUCTIONS on how to acesss the front-end decentralized application 
+How to acesss the front-end decentralized application 
 ----------------------------------------------------------------------------------
 Visit: https://rahilpopat369.github.io/blockchain-developer-bootcamp-final-project
 Please have Metamask installed as an extension and make sure it is on the Rinkeby Network and sufficient Rinkeby test ETH is available in the MM wallet when interacting with smart contract through the front-end dapp accessed through the link above.
