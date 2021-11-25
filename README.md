@@ -19,14 +19,14 @@ How to acesss the front-end decentralized application
 Visit: https://rahilpopat369.github.io/blockchain-developer-bootcamp-final-project
 Please have Metamask installed as an extension and make sure it is on the Rinkeby Network and sufficient Rinkeby test ETH is available in the MM wallet when interacting with smart contract through the front-end dapp accessed through the link above.
 
-Installing dependencies
+List of all dependencies
 -----------------------------------------------------------------------------------
 1) npm install 
 2) npm install --save-dev mocha 
 3) npm install -g create-react-app 
 4) npm install --save react react-dom
 5) npm install -g node-modules
-
+6) npm install @truffle/hdwallet-provider
 Running 5 smart contract unit tests
 -----------------------------------------------
 Clone the github project link: https://rahilpopat369.github.io/blockchain-developer-bootcamp-final-project/
