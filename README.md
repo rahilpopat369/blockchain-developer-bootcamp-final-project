@@ -48,3 +48,15 @@ In order to link the deployed smart contract to the react front end, follow the 
 Screencast of a project walkthrough, including trsnactions and seeing updated status 
 -----------------------------------------------
 https://www.loom.com/share/9f4057415da84a949f281c26fcb98021
+
+Steps to run project locally:
+1) Create a new folder locally and clone the repo 
+2) Change directory, run the command cd blockchain-developer-bootcamp-final-project
+3) Install dependencies: npm install --save-dev mocha and npm install 
+4) Run npm test to run the unit tests for the smart contract
+5) Run the react front-end go inside the folder lottery-react 
+6) npm install -g create-react-app 
+7) npm install --save react react-dom
+8) npm install -g node-modules
+9) Add a .env file in the root folder and paste the follwing into the file : SKIP_PREFLIGHT_CHECK=true 
+10) Run the command npm start to start up the localhost:3000 server
