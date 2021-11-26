@@ -51,7 +51,9 @@ Steps to run project locally using github repo link
 8) npm install --save react react-dom
 9) npm install -g node-modules
 10) Add a .env file in the root folder and paste the follwing into the file : SKIP_PREFLIGHT_CHECK=true 
-11) Run the command npm start to start up the localhost:3000 server
+11) Run the command 'npm start' to start up the localhost:3000 server inside the lottery-react folder
+12) Start interacting with the front-end interface and enter the lottery contract to win some test ether !
+
 Please see a video demonstration of the steps 1) to 11) using the link below
 https://www.loom.com/share/a214fba81b9c472490ab5d8534146685
 
