@@ -35,16 +35,6 @@ Run the following commands and install the following dependencies for the Mocha 
 3) npm test 
 4) Results: 5 passing units tests as seen in the video clip at the bottom of this file
 
-Compile and Deploy smart contract to Rinkeby Test Network
------------------------------------------------
-1) Go inside the root project folder
-2) Run the command 'node deploy.js' : This will compile and deploy smart contract to the rinkeby test network 
-This will produce the smart contract ABI interface and the deployed address of the smart contract on the rinkeby test network 
-
-In order to link the deployed smart contract to the react front end, follow the follwing steps:
-1) Copy the ABI and deployed address after the command 'node deploy.js' is completed
-2) Paste the ABI and address in the file called lottery.js inside the src folder in lottery-react. This will link the front-end to the deployed instance of the smart contract deployed on the rinkeby network. 
-
 Screencast of a project walkthrough, including trsnactions and seeing updated status 
 -----------------------------------------------
 https://www.loom.com/share/9f4057415da84a949f281c26fcb98021
@@ -66,3 +56,15 @@ Please see a video demonstration of the steps 1) to 11) using the link below
 https://www.loom.com/share/a214fba81b9c472490ab5d8534146685
 
 Ethereum Address to Receive NFT: 0xBE6a83EEDEA60417FD9056D4E2a86823A63CBFd8
+
+Additional Information 
+--------------------------
+Compile and Deploy smart contract to Rinkeby Test Network
+-----------------------------------------------
+1) Go inside the root project folder
+2) Run the command 'node deploy.js' : This will compile and deploy smart contract to the rinkeby test network 
+This will produce the smart contract ABI interface and the deployed address of the smart contract on the rinkeby test network 
+
+In order to link the deployed smart contract to the react front end, follow the follwing steps:
+1) Copy the ABI and deployed address after the command 'node deploy.js' is completed
+2) Paste the ABI and address in the file called lottery.js inside the src folder in lottery-react. This will link the front-end to the deployed instance of the smart contract deployed on the rinkeby network. 
