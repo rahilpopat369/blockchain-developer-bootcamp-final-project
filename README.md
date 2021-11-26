@@ -50,7 +50,8 @@ Screencast of a project walkthrough, including trsnactions and seeing updated st
 -----------------------------------------------
 https://www.loom.com/share/9f4057415da84a949f281c26fcb98021
 
-Steps to run project locally:
+Steps to run project locally using github repo link
+----------------------------------------------------------------------------
 1) Create a new folder locally and clone the repo https://github.com/rahilpopat369/blockchain-developer-bootcamp-final-project
 2) Change directory, run the command cd blockchain-developer-bootcamp-final-project
 3) to compile and deploy smart contract run: 'node compile.js' and node 'deploy.js'
