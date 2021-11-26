@@ -64,7 +64,8 @@ Additional Information
 Compile and Deploy smart contract to Rinkeby Test Network
 -----------------------------------------------
 1) Go inside the root project folder
-2) Run the command 'node deploy.js' : This will compile and deploy smart contract to the rinkeby test network 
+2) Enter the Metamask mnemoni and Infura API link in the deploy.js file
+3) Run the command 'node deploy.js' : This will compile and deploy smart contract to the rinkeby test network 
 This will produce the smart contract ABI interface and the deployed address of the smart contract on the rinkeby test network 
 
 In order to link the deployed smart contract to the react front end, follow the follwing steps:
