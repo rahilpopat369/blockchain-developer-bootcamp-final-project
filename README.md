@@ -29,11 +29,12 @@ List of all dependencies
 
 Running 5 smart contract unit tests
 -----------------------------------------------
-Clone the github project link: https://rahilpopat369.github.io/blockchain-developer-bootcamp-final-project/
+Clone the github project link: https://github.com/rahilpopat369/blockchain-developer-bootcamp-final-project
 Run the following commands and install the following dependencies for the Mocha test runner inside the root folder 
-1) npm install --save-dev mocha
-2) npm test 
-3) Results: 5 passing units tests should be seen (Picture of results attached)
+1) npm install 
+2) npm install --save-dev mocha
+3) npm test 
+4) Results: 5 passing units tests as seen in the video clip at the bottom of this file
 
 Compile and Deploy smart contract to Rinkeby Test Network
 -----------------------------------------------
