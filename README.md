@@ -2,10 +2,9 @@
 Project Directory 
 --------------------------------------------------------------------------------------------------------
 1) Folder Name: contracts
-     Description: Contains the smart contracts solidity files called Lottery.sol
+     Description: Contains the smart contract solidity files called Lottery.sol
 2) Folder Name: test
-     Description: Contains 5 units test files that have sucessfully been passed
-     Please Note: See picture of passed tests called testresults in root project folder
+     Description: Contains 5 units test files that have sucessfully been passed (as seen in video attached)
 3) Folder Name: lottery-react
     Description: Contains the react scripts and files for the front-end dapp 
 4) Remaining JavaScript File Descriptions
