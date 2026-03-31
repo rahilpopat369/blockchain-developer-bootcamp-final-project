@@ -1,73 +1,198 @@
+<div align="center">
 
-Project Directory 
---------------------------------------------------------------------------------------------------------
-1) Folder Name: contracts
-     Description: Contains the smart contract solidity files called Lottery.sol
-2) Folder Name: test
-     Description: Contains 5 units test files that have sucessfully been passed (as seen in video attached)
-3) Folder Name: lottery-react
-    Description: Contains the react scripts and files for the front-end dapp 
-4) Remaining JavaScript File Descriptions
-    compile.js: JS script used to compile the smart contract
-    deploy.js: JS script used to deploy the smart contract to the rinkeby test network
-   
-----------------------------------------------------------------------------------
-How to acesss the front-end decentralized application 
-----------------------------------------------------------------------------------
-Visit: https://rahilpopat369.github.io/blockchain-developer-bootcamp-final-project
-Please have Metamask installed as an extension and make sure it is on the Rinkeby Network and sufficient Rinkeby test ETH is available in the MM wallet when interacting with smart contract through the front-end dapp accessed through the link above.
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00e5c3,50:8b6fd4,100:00e5c3&height=3&section=header" width="100%"/>
 
-List of all dependencies
------------------------------------------------------------------------------------
-1) npm install 
-2) npm install --save-dev mocha 
-3) npm install -g create-react-app 
-4) npm install --save react react-dom
-5) npm install -g node-modules
-6) npm install @truffle/hdwallet-provider
+<br/>
 
-Running 5 smart contract unit tests
------------------------------------------------
-Clone the github project link: https://github.com/rahilpopat369/blockchain-developer-bootcamp-final-project
-Run the following commands and install the following dependencies for the Mocha test runner inside the root folder 
-1) npm install 
-2) npm install --save-dev mocha
-3) npm test 
-4) Results: 5 passing units tests as seen in the video clip at the bottom of this file
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=160&text=ethereum-lottery-dapp&fontColor=00e5c3&fontSize=30&fontAlignY=45&desc=SOLIDITY%20%C2%B7%20REACT%20%C2%B7%20ETHEREUM%20%C2%B7%20BLOCKCHAIN%20BOOTCAMP&descAlignY=68&descSize=13&fontFamily=courier" width="100%"/>
 
-Screencast of a project walkthrough, including trsnactions and seeing updated status 
------------------------------------------------
-https://www.loom.com/share/9f4057415da84a949f281c26fcb98021
+<br/>
 
-Steps to run project locally using github repo link
-----------------------------------------------------------------------------
-1) Create a new folder locally and clone the repo https://github.com/rahilpopat369/blockchain-developer-bootcamp-final-project
-2) Change directory, run the command cd blockchain-developer-bootcamp-final-project
-3) to compile and deploy smart contract run: 'node compile.js' and node 'deploy.js'
-4) Install dependencies: npm install --save-dev mocha and npm install 
-5) Run npm test to run the unit tests for the smart contract
-6) Run the react front-end go inside the folder lottery-react and install 6,7,8,9 dependecies :
-7) npm install -g create-react-app 
-8) npm install --save react react-dom
-9) npm install -g node-modules
-10) Add a .env file in the root folder and paste the follwing into the file : SKIP_PREFLIGHT_CHECK=true 
-11) Run the command 'npm start' to start up the localhost:3000 server inside the lottery-react folder
-12) Start interacting with the front-end interface and enter the lottery contract to win some test ether !
+[![Solidity](https://img.shields.io/badge/SOLIDITY-0.8-00e5c3?style=flat-square&labelColor=0d1117)](https://soliditylang.org)
+[![React](https://img.shields.io/badge/REACT-17-8b6fd4?style=flat-square&labelColor=0d1117)](https://reactjs.org)
+[![Ethereum](https://img.shields.io/badge/ETHEREUM-RINKEBY-00e5c3?style=flat-square&labelColor=0d1117)](https://ethereum.org)
+[![Tests](https://img.shields.io/badge/TESTS-5%20PASSING-00e5c3?style=flat-square&labelColor=0d1117)](#tests)
+[![Status](https://img.shields.io/badge/STATUS-ARCHIVED-555?style=flat-square&labelColor=0d1117)](https://github.com/rahilpopat/ethereum-lottery-dapp)
 
-Please see a video demonstration of the steps 1) to 11) using the link below
-https://www.loom.com/share/a214fba81b9c472490ab5d8534146685
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00e5c3,50:8b6fd4,100:00e5c3&height=3&section=header" width="100%"/>
 
-Ethereum Address to Receive NFT: 0xBE6a83EEDEA60417FD9056D4E2a86823A63CBFd8
+</div>
 
-Additional Information 
---------------------------
-Compile and Deploy smart contract to Rinkeby Test Network
------------------------------------------------
-1) Go inside the root project folder
-2) Enter the Metamask mnemoni and Infura API link in the deploy.js file
-3) Run the command 'node deploy.js' : This will compile and deploy smart contract to the rinkeby test network 
-This will produce the smart contract ABI interface and the deployed address of the smart contract on the rinkeby test network 
+<br/>
 
-In order to link the deployed smart contract to the react front end, follow the follwing steps:
-1) Copy the ABI and deployed address after the command 'node deploy.js' is completed
-2) Paste the ABI and address in the file called lottery.js inside the src folder in lottery-react. This will link the front-end to the deployed instance of the smart contract deployed on the rinkeby network. 
+## > what_this_is
+
+```
+A decentralised lottery application built on Ethereum.
+
+Players enter by sending ETH to the smart contract.
+The contract manager picks a winner at random.
+The full prize pool transfers automatically. No middleman.
+```
+
+Built as the final project for a Blockchain Developer Bootcamp. 41 commits, 5 passing unit tests, a deployed smart contract, and a working React frontend connected to the Ethereum Rinkeby testnet.
+
+→ [Watch the project walkthrough](https://www.loom.com/share/9f4057415da84a949f281c26fcb98021)
+
+<br/>
+
+---
+
+## > how_it_works
+
+```
+┌──────────────┐    ┌──────────────┐    ┌──────────────┐    ┌──────────────┐
+│  PLAYER      │───▶│  SMART       │───▶│  MANAGER     │───▶│  WINNER      │
+│              │    │  CONTRACT    │    │              │    │              │
+│ Sends ETH    │    │ Holds funds  │    │ Calls        │    │ Receives     │
+│ via MetaMask │    │ Tracks       │    │ pickWinner() │    │ full prize   │
+│              │    │ players      │    │              │    │ pool         │
+└──────────────┘    └──────────────┘    └──────────────┘    └──────────────┘
+```
+
+**Smart contract** (`Lottery.sol`):
+- Accepts ETH entries from any address
+- Tracks all players in a dynamic array
+- Manager-only `pickWinner()` function using pseudo-random selection
+- Transfers full balance to winner and resets the lottery
+- Security patterns: checks-effects-interactions, access control modifiers
+
+**Frontend** (`lottery-react`):
+- React app connected to deployed contract via web3.js
+- MetaMask wallet integration
+- Live display of prize pool, player count, and last winner
+- Enter lottery and pick winner directly from the browser
+
+<br/>
+
+---
+
+## > repo_structure
+
+```
+ethereum-lottery-dapp/
+├── contracts/
+│   └── Lottery.sol          ← Solidity smart contract
+├── test/
+│   └── Lottery.test.js      ← 5 unit tests (Mocha)
+├── lottery-react/
+│   └── src/
+│       ├── App.js           ← Main React component
+│       └── lottery.js       ← Contract ABI + deployed address
+├── compile.js               ← Compiles Solidity → ABI + bytecode
+├── deploy.js                ← Deploys to Rinkeby via Infura
+├── avoiding_common_attacks.md
+└── design_patterns_decisions.md
+```
+
+<br/>
+
+---
+
+## > tests
+
+5 unit tests written with Mocha, covering:
+
+```
+✓ deploys a contract
+✓ allows one account to enter
+✓ allows multiple accounts to enter
+✓ requires a minimum amount of ether to enter
+✓ only manager can call pickWinner
+```
+
+Run tests:
+```bash
+npm install
+npm install --save-dev mocha
+npm test
+```
+
+→ [Watch test run video](https://www.loom.com/share/a214fba81b9c472490ab5d8534146685)
+
+<br/>
+
+---
+
+## > run_locally
+
+**1. Clone and install**
+```bash
+git clone https://github.com/rahilpopat/ethereum-lottery-dapp
+cd ethereum-lottery-dapp
+npm install
+```
+
+**2. Compile and deploy the smart contract**
+```bash
+# Add your MetaMask mnemonic and Infura API key to deploy.js
+node compile.js
+node deploy.js
+# Copy the output ABI and address into lottery-react/src/lottery.js
+```
+
+**3. Run the React frontend**
+```bash
+cd lottery-react
+npm install
+npm start
+# Open http://localhost:3000
+# Connect MetaMask on Rinkeby testnet
+```
+
+<br/>
+
+---
+
+## > what_i_learned
+
+- Writing and deploying Solidity smart contracts to a live testnet
+- Smart contract security patterns — access control, checks-effects-interactions, avoiding common attack vectors
+- Connecting a React frontend to a deployed contract via ABI and web3.js
+- Writing unit tests for smart contracts with Mocha
+- The full dapp stack: contract → compile → deploy → frontend → MetaMask
+
+<br/>
+
+---
+
+## > what_came_next
+
+```
+The discipline of building end to end — from logic layer to
+deployed contract to user interface — carried forward.
+
+The domain changed. AI agents replaced smart contracts.
+The pattern stayed the same.
+```
+
+→ See what I'm building now: [personal-ai-research-assistant](https://github.com/rahilpopat/personal-ai-research-assistant)
+
+<br/>
+
+---
+
+## > tech_stack
+
+[![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&labelColor=0d1117&logo=solidity&logoColor=white)](https://soliditylang.org)
+[![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&labelColor=0d1117&logo=ethereum&logoColor=white)](https://ethereum.org)
+[![React](https://img.shields.io/badge/React-20232A?style=flat-square&labelColor=0d1117&logo=react&logoColor=00e5c3)](https://reactjs.org)
+[![Web3](https://img.shields.io/badge/Web3.js-F16822?style=flat-square&labelColor=0d1117&logo=web3.js&logoColor=white)](https://web3js.readthedocs.io)
+[![Mocha](https://img.shields.io/badge/Mocha-8D6748?style=flat-square&labelColor=0d1117&logo=mocha&logoColor=white)](https://mochajs.org)
+[![Infura](https://img.shields.io/badge/Infura-FF5B4F?style=flat-square&labelColor=0d1117)](https://infura.io)
+
+<br/>
+
+---
+
+<div align="center">
+
+Blockchain Developer Bootcamp Final Project · Archived
+
+[github.com/rahilpopat](https://github.com/rahilpopat)
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:8b6fd4,50:00e5c3,100:8b6fd4&height=3&section=footer" width="100%"/>
+
+</div>
